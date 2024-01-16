@@ -29,7 +29,7 @@ If you're working in an environment that requires a proxy, setting it up for pac
     }
     ```
 ### Authenticated
->**If your proxy supports authentication** and requires a username/password for login, use: 
+> **If your proxy supports authentication** and requires a username/password for login, use: 
 {: .prompt-info }
 
 ```bash
@@ -39,7 +39,7 @@ https::Proxy "http://user:password@proxy_server:port/";
     }
 ```
 
->**Note**: Replace `your_proxy_server` and `proxy_port` with your actual proxy server address and port as well as `user` and `password` if authetication is needed. 
+> **Note**: Replace `your_proxy_server` and `proxy_port` with your actual proxy server address and port as well as `user` and `password` if authetication is needed. 
 {: .prompt-info }
 
 Save and exit the editor and test the APT connection:
@@ -87,7 +87,7 @@ or Add below text at the end of `~/.bashrc` or `~/.zshrc`:
 HTTP_PROXY=http://username:password@proxyserver:port
 HTTP_PROXY=https://username:password@proxyserver:port
 ```
->**Note:** Don't forget to export the variables after setting them, to make them available to the shell session. 
+> **Note:** Don't forget to export the variables after setting them, to make them available to the shell session. 
 {: .prompt-info }
 
 ```bash
