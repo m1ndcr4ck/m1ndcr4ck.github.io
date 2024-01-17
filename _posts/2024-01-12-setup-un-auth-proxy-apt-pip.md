@@ -1,7 +1,7 @@
 ---
 title: How to setup and use un/authenticated proxy with apt and pip
 date: 2024-01-11 14:00:00 +1000
-categories: [tips,tricks,network]
+categories: [tips,tricks,network,how-to]
 tags: [hacking, tips, tricks,proxy,pip,apt,kali,parrot, linux]  
 comments: true
 image:
